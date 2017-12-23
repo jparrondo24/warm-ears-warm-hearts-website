@@ -8,8 +8,51 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
+
+
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-nav">
+            <div class="navbar-nav row container">
+              <div class="col-sm-5 col-md-5 col-lg-5">
+                <a class="nav-item nav-link active" href="#"><img class="img-responsive" alt="logo" src="/assets/logo.jpg"></a>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6" id="center-text">
+                <div class="row">
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <a class="nav-item nav-link nav-text" href="#">About</a>
+                  </div>
+                  <div class=" col-sm-4 col-md-4 col-lg-4">
+                    <a class="nav-item nav-link nav-text" href="#">Contact</a>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4">
+                    <a class="nav-item nav-link nav-text" href="#">Test</a>
+                  </div>
+                  <div id="nav-icons" class="col-sm col-md"></div>
+                    <i class="fab fa-facebook fa-3x"></i>
+                    <i class="fab fa-instagram fa-3x"></i>
+                    <i class="fab fa-linkedin fa-3x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
     <div class="container">
       <%= yield %>
     </div>
+
+
   </body>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
 </html>

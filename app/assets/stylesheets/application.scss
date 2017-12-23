@@ -11,5 +11,19 @@
  * It is generally better to create a new file per style scope.
  *
  */
-
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#main-nav img {
+  max-width: 200px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+#center-text a {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  min-width: 9em;
+}
