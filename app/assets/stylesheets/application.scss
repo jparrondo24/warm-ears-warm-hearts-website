@@ -14,8 +14,12 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
+/* Everything for header */
+
+
 #main-nav img {
-  max-width: 200px;
+  max-width: 80%;
 }
 
 .navbar-nav {
@@ -26,4 +30,43 @@
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   min-width: 9em;
+  color: white;
+}
+
+#nav-icons {
+  max-width: 100px;
+}
+
+
+/* Everything for carousel */
+
+
+html, body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.c-img {
+  width: 100%;
+}
+
+header, #home-slider-container {
+  position: absolute;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+header {
+  z-index: 2;
+}
+
+#home-slider-container {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+#home-slider h1 {
+  font-family: Roboto;
 }
