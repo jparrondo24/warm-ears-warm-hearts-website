@@ -20,7 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 # Use bootstrap for styling
 gem 'bootstrap', '~> 4.0.0.alpha3'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '>= 2.3.0.1'
 
 gem 'jquery-rails'
 gem 'popper_js'
