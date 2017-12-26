@@ -51,22 +51,9 @@ html, body {
   width: 100%;
 }
 
-header, #home-slider-container {
+header {
   position: absolute;
   overflow-x: hidden;
   padding: 0;
-}
-
-header {
   z-index: 2;
-}
-
-#home-slider-container {
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-}
-
-#home-slider h1 {
-  font-family: Roboto;
 }
