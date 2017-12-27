@@ -13,4 +13,7 @@ class PagesController < ApplicationController
   def ambassadors
 
   end
+  def donate
+    
+  end
 end
