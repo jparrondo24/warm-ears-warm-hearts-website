@@ -1,0 +1,54 @@
+
+h1 {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+  font-size: 65px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: relative;
+  padding: 0;
+  background-color: #2f3033;
+}
+
+#about-row {
+}
+
+#about-row h2, #about-row p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 5% 5% 7% 5%;
+  color: white;
+}
+
+#about-row h2 {
+  font-size: 45px;
+  padding-bottom: 8%;
+}
+
+#about-row p {
+  text-align: left;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+
+#mission-statement-col {
+  background-image: url("/assets/papers.jpg");
+  background-repeat: "false";
+}
+
+#what-we-do-col {
+  background-image: url("/assets/clothes.jpg");
+  background-position: center;
+  background-size: 125%;
+  background-repeat: "false";
+}
+
+#founding-president-col {
+  background-image: url("/assets/morles-letterman.jpg");
+  background-position: center;
+  background-size: 150%;
+  background-repeat: "false";
+}
