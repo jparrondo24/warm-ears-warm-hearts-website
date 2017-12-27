@@ -34,8 +34,10 @@
   color: white;
 }
 
-#nav-icons {
-  max-width: 100px;
+#nav-icons i {
+  color: white;
+  letter-spacing: 1em;
+  font-size: 300%;
 }
 
 
@@ -102,3 +104,20 @@ header {
 }
 
 /* Everything for footer */
+
+footer {
+  padding-top: 5%;
+  background-color: #2f3033;
+  padding-bottom: 2.5%;
+}
+
+footer h3, footer p {
+  text-align: center;
+  color: white;
+}
+
+footer .credits p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 1.5em;
+}
