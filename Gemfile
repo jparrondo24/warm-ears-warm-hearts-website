@@ -21,7 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use bootstrap for styling
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'bootstrap-sass', '>= 2.3.0.1'
-
+gem 'font-awesome-sass'
 gem 'jquery-rails'
 gem 'popper_js'
 # Use CoffeeScript for .coffee assets and views

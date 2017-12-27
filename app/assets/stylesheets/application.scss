@@ -13,7 +13,8 @@
  */
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 /* Everything for header */
 
@@ -38,17 +39,14 @@
 }
 
 
-/* Everything for carousel */
+/* Everything for page */
 
 
 html, body {
-  background-color: black;
+  background-color: white;
   height: 100%;
   width: 100%;
-}
-
-.c-img {
-  width: 100%;
+  margin: 0;
 }
 
 header {
@@ -57,3 +55,50 @@ header {
   padding: 0;
   z-index: 2;
 }
+
+
+/* Everything for carousel */
+
+#home-carousel h3 {
+  font-size: 65px;
+}
+
+
+/* Everything for info boxes */
+
+.content-row h1, .content-row p {
+  font-family: "Roboto", sans-serif;
+  align-content: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.content-row h1 {
+  font-size: 65px;
+  text-align: center;
+  color: white;
+}
+
+.content-row p {
+  font-size: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+#about-title {
+  background-image: url("/assets/founder-vertical.jpg");
+}
+
+#action-title {
+  background-image: url("/assets/statia.png");
+  background-repeat: "false";
+  background-size: 100%;
+}
+
+.button-in-text button {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Everything for footer */
