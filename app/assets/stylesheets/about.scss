@@ -32,19 +32,19 @@ header {
 }
 
 #mission-statement-col {
-  background-image: url("/assets/papers.jpg");
+  background-image: image-url("/assets/papers.jpg");
   background-repeat: "false";
 }
 
 #what-we-do-col {
-  background-image: url("/assets/clothes.jpg");
+  background-image: image-url("/assets/clothes.jpg");
   background-position: center;
   background-size: 125%;
   background-repeat: "false";
 }
 
 #founding-president-col {
-  background-image: url("/assets/morles-letterman.jpg");
+  background-image: image-url("/assets/morles-letterman.jpg");
   background-position: center;
   background-size: 150%;
   background-repeat: "false";
