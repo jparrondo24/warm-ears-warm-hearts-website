@@ -44,7 +44,6 @@
       </nav>
     </header>
 
-
     <%= yield %>
 
 
@@ -59,5 +58,15 @@
         </span>
       </div>
     </footer>
+
+    <script>
+      $(document).ready(function(){
+        delayShow();
+      });
+      function delayShow() {
+        var secs = 1000;
+        setTimeout('jQuery("body").css("visibility","visible");', secs);
+      }
+    </script>
   </body>
 </html>
