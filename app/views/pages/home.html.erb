@@ -45,15 +45,14 @@
       </p>
     </div>
   </div>
-
   <div class="row content-row">
     <div class="col-md-6 col-lg-6 desc-col">
       <p>Warm Ears, Warm Hearts is a foundation dedicated to helping children in need. However, without community support, we wouldn't be able to act.
         <br/><br/>
         <span class="button-in-text">
-          <button class="btn btn-success">Donate <i class="fa fa-money" aria-hidden="true"></i></button>
-          <button class="btn btn-primary">Be An Ambassador <i class="fa fa-user" aria-hidden="true"></i></button>
-          <button class="btn btn-warning">Contact Us <i class="fa fa-bullhorn" aria-hidden="true"></i></button>
+          <button id="donateButton" class="btn btn-success">Donate <i class="fa fa-money" aria-hidden="true"></i></button>
+          <button id="ambassadorButton" class="btn btn-primary">Be An Ambassador <i class="fa fa-user" aria-hidden="true"></i></button>
+          <button id="contactButton" class="btn btn-warning">Contact Us <i class="fa fa-bullhorn" aria-hidden="true"></i></button>
         </span>
       </p>
     </div>
@@ -67,6 +66,13 @@
   $('#infoButton').click(function() {
     location.href = "/about";
   });
-  $('#')
-
+  $('#donateButton').click(function() {
+    location.href = "/donate";
+  });
+  $('#ambassadorButton').click(function() {
+    location.href = "/ambassadors";
+  });
+  $('#contactButton').click(function() {
+    location.href = "/contact";
+  });
 </script>
