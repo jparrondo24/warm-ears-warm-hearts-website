@@ -60,7 +60,7 @@
 */
 
 .navbar-brand {
-  width: 25%;
+  width: 20%;
 }
 
 .navbar-brand img {
@@ -70,12 +70,7 @@
 .navbar-nav li {
   color: white;
   font-size: 25px;
-  padding-left: 5%;
-}
-
-.navbar-nav a {
-  color: white;
-  opacity: 1 !important;
+  min-width: 19%;
 }
 
 .navbar-toggler-icon {
@@ -88,10 +83,11 @@
 
 #sm-icons {
   text-align: right;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.25em;
   padding-right: 0;
   margin-right: 0;
 }
+
 
 @media screen and (max-width: 767px) {
   #sm-icons {
@@ -104,22 +100,15 @@
   }
 }
 @media screen and (min-width: 992px) {
-  #sm-icons i {
-    font-size: 28px;
-  }
-  #sm-icons {
-    padding-left: 0;
-  }
-  .nav-item li {
-    padding-left: 2%;
+  .navbar-nav li {
+    min-width: 14%;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
-  #sm-icons i {
-    font-size: 37px;
-  }
-  #sm-icons {
-    padding-left: 15%;
+  .navbar-nav li {
+    min-width: 19%;
+    text-align: center;
   }
 }
 
