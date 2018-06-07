@@ -1,7 +1,7 @@
 
 h1 {
   padding-top: 7%;
-  padding-bottom: 7%;
+  padding-bottom: 6%;
   text-align: center;
   font-size: 65px;
   font-family: "Roboto", sans-serif;
@@ -13,22 +13,30 @@ header {
   background-color: #2f3033;
 }
 
-#about-row h2, #about-row p {
+#about-container h2, #about-container h3,#about-container p {
   font-family: "Roboto", sans-serif;
   text-align: center;
   padding: 5% 5% 7% 5%;
-  color: white;
 }
 
-#about-row h2 {
+#about-container h2 {
   font-size: 45px;
   padding-bottom: 8%;
 }
 
-#about-row p {
+#about-container h3 {
+  font-size: 35px;
+  padding-bottom: 8%;
+}
+
+#about-container p {
   text-align: left;
   font-size: 25px;
   line-height: 1.5em;
+}
+
+#about-row h2, #about-row p {
+    color: white;
 }
 
 #mission-statement-col {
@@ -39,13 +47,36 @@ header {
 #what-we-do-col {
   background-image: image-url("/assets/clothes.jpg");
   background-position: center;
-  background-size: 125%;
+  background-size: 150%;
   background-repeat: "false";
 }
 
+/*
 #founding-president-col {
   background-image: image-url("/assets/morles-letterman.jpg");
   background-position: center;
   background-size: 150%;
   background-repeat: "false";
+}
+*/
+
+#contributor-row {
+  padding-bottom: 5%;
+}
+
+#contributor-row h1 {
+  padding-bottom: 0%;
+}
+
+#contributor-row h2 {
+  padding-bottom: 0%;
+}
+
+#contributor-row img {
+  max-width: 100%;
+  height: auto;
+}
+
+#contributor-row p {
+  text-align: center;
 }
