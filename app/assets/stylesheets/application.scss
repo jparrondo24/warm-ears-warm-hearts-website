@@ -71,7 +71,7 @@
 .navbar-nav li {
   color: white;
   font-size: 25px;
-  min-width: 16%;
+  min-width: 10%;
 }
 
 .navbar-toggler-icon {
@@ -106,13 +106,13 @@
 }
 @media screen and (min-width: 992px) {
   .navbar-nav li {
-    min-width: 13%;
+    min-width: 7%;
     text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
   .navbar-nav li {
-    min-width: 16%;
+    min-width: 10%;
     text-align: center;
   }
 }
