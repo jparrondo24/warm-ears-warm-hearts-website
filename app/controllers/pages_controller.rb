@@ -14,6 +14,9 @@ class PagesController < ApplicationController
 
   end
   def donate
-    
+
+  end
+  def collections
+
   end
 end

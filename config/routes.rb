@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get '/contact' => 'pages#contact'
   get '/ambassadors' => 'pages#ambassadors'
   get '/donate' => 'pages#donate'
+  get '/events' => 'events#index'
+  get '/collections' => 'pages#collections'
 end
