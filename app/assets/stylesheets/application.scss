@@ -140,6 +140,13 @@ header {
 
 /* Everything for carousel */
 
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #home-carousel h3 {
   font-size: 65px;
 }
