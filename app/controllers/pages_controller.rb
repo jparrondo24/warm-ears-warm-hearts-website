@@ -19,4 +19,12 @@ class PagesController < ApplicationController
   def collections
 
   end
+  def events
+
+  end
+  def sponsors
+
+  end
+  def tournament
+  end
 end

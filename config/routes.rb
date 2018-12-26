@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   get '/donate' => 'pages#donate'
   get '/events' => 'events#index'
   get '/collections' => 'pages#collections'
+  get '/sponsors' => 'pages#sponsors'
+  get '/events' => 'pages#events'
+  get '/smash-coldness-tournament-2018' => 'pages#tournament'
 end
