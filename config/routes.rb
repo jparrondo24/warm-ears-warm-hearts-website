@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   get '/collections' => 'pages#collections'
   get '/sponsors' => 'pages#sponsors'
   get '/events' => 'pages#events'
-  get '/smash-coldness-tournament-2018' => 'pages#tournament'
+  get '/history' => 'pages#history'
 end

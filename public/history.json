@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "first-collection": {
+        "date": "December 2016",
+        "title": "The First Collection",
+        "description": "Warm Ears, Warm Hearts does its first collection. Clothing was collected at Christopher Columbus HS & sent to P.S. 277. "
+      },
+      "registered-nonprofit": {
+        "date": "July 6th, 2017",
+        "title": "Official Non-Profit Status",
+        "description": "Warm Ears, Warm Hearts becomes a registered nonprofit in the state of Florida! "
+      },
+      "social-media": {
+        "date": "August 7th, 2017",
+        "title": "Live on Social Media",
+        "description": "Warm Ears, Warm Hearts is live on social media! The starting platforms were Instagram, Facebook, and LinkedIn. "
+      },
+      "second-collection": {
+        "date": "December 2017",
+        "title": "The Second Collection",
+        "description": "Warm Ears, Warm Hearts is live on social media! The starting platforms were Instagram, Facebook, and LinkedIn. "
+      },
+      "first-giveaway": {
+        "date": "December 2017",
+        "title": "Our First Giveaway",
+        "description": "During this collection, Warm Ears, Warm Hearts also had its first giveaway! People who donated winter clothing had a chance to win a Starbucks gift card! "
+      },
+      "second-giveaway": {
+        "date": "March 2018",
+        "title": "Our Second Giveaway",
+        "description": "Warm Ears, Warm Hearts does its second giveaway! Anyone who donated money during this month had a chance to win a Starbucks gift card."
+      },
+      "smash-coldness": {
+        "date": "December 2nd, 2018",
+        "title": "Smash Coldness 2018",
+        "description": "Warm Ears, Warm Hearts successfully hosted its first Smash Coldness video game tournament. Everyone from beginners to nationally ranked players came to compete, and we "
+      }
+    },
+  ]
+}
