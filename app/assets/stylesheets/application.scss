@@ -192,7 +192,7 @@ header {
 /* Everything for footer */
 
 footer {
-  padding-top: 5%;
+  padding-top: 3%;
   background-color: #2f3033;
   padding-bottom: 2.5%;
 }
@@ -206,4 +206,8 @@ footer .credits p {
   padding-bottom: 0;
   margin-bottom: 0;
   line-height: 1.5em;
+}
+
+footer .credits a {
+  color: #668cff;
 }

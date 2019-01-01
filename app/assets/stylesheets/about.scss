@@ -80,3 +80,28 @@ header {
 #contributor-row p {
   text-align: center;
 }
+
+#hapzly-row {
+  text-align: center;
+  h1 {
+    padding-bottom: 1%;
+  }
+  h3 {
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    line-height: 1.5em;
+  }
+  img {
+    padding-top: 0;
+    max-width: 400px;
+  }
+  #hapzly-desc-col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    button {
+      font-size: 25px;
+    }
+  }
+}
