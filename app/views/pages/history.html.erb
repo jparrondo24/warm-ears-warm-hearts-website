@@ -5,22 +5,13 @@
   <div class="row">
 		<div class="col-md-8 offset-md-2">
 			<ul class="timeline">
-				<li>
-					<h3>New Web Design</h3>
-					<h3 class="float-right">21 March, 2014</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-				</li>
-				<li>
-					<h3>21 000 Job Seekers</h3>
-					<h3 class="float-right">4 March, 2014</h3>
-          <br />
-          <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
-				</li>
-				<li>
-					<h3>Awesome Employers</h3>
-					<h3 class="float-right">1 April, 2014</h3>
-					<p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
-				</li>
+        <% @events.each do |event| %>
+          <li>
+            <h3><%= event[1]['title'] %></h3>
+            <h3 class="float-right"><%= event[1]['date'] %></h3>
+            <p><%= event[1]['description'] %></p>
+          </li>
+        <% end %>
 			</ul>
 		</div>
 	</div>

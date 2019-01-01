@@ -71,7 +71,7 @@
 .navbar-nav li {
   color: white;
   font-size: 25px;
-  min-width: 14%;
+  padding-right: 7%;
 }
 
 .navbar-toggler-icon {
@@ -84,36 +84,24 @@
 
 #sm-icons {
   text-align: right;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.5em;
   padding-right: 0;
-  margin-right: 0;
-
+  margin-right: 2%;
+  white-space: nowrap;
+  float: right;
   a {
     color: white;
+    font-size: 25px;
+    min-width: 14%;
   }
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   #sm-icons {
-    text-align: left;
-  }
-}
-@media screen and (min-width: 768px) {
-  #sm-icons {
-    text-align: left;
-  }
-}
-@media screen and (min-width: 992px) {
-  .navbar-nav li {
-    min-width: 10%;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .navbar-nav li {
-    min-width: 12%;
-    text-align: center;
+    padding-top: 2%;
+    float: left !important;
+    padding-bottom: 2%;
   }
 }
 
