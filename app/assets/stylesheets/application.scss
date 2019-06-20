@@ -19,7 +19,7 @@
 
 /* Everything for header */
 
-/*
+
 
 #center-text a {
   font-family: "Roboto", sans-serif;
@@ -28,40 +28,95 @@
 }
 
 @media screen and (max-width: 767px) {
-  #center-text a {
-    font-size: 9px;
+  .content-row h1 {
+    font-size: 45px;
+  }
+  .content-row p {
+    font-size: 20px;
+  }
+  header {
+    position: relative;
+    padding: 0;
+    background-color: #2f3033;
+  }
+  .carousel-all {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .logo-brand {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  #center-text a {
-    font-size: 13px;
+  .content-row h1 {
+    font-size: 55px;
+  }
+  .content-row p {
+    font-size: 25px;
+  }
+  header {
+    position: absolute;
+    overflow-x: hidden;
+    padding: 0;
+    z-index: 2;
+  }
+  .mobile-only {
+    display: none;
+  }
+  .home-brand {
+    display: none;
+  }
+  .navbar-brand {
+    width: 20%;
   }
 }
 @media screen and (min-width: 992px) {
-  #center-text a {
-    font-size: 18px;
+  .content-row h1 {
+    font-size: 60px;
+  }
+  .content-row p {
+    font-size: 30px;
+  }
+  header {
+    position: absolute;
+    overflow-x: hidden;
+    padding: 0;
+    z-index: 2;
+  }
+  .mobile-only {
+    display: none;
+  }
+  .home-brand {
+    display: none;
+  }
+  .navbar-brand {
+    width: 20%;
   }
 }
 @media screen and (min-width: 1200px) {
-  #center-text a {
-    font-size: 23px;
+  .content-row h1 {
+    font-size: 65px;
   }
-}
-
-#nav-icons {
-  text-align: right;
-}
-
-#nav-icons i {
-  color: white;
-  letter-spacing: 1em;
-  font-size: 300%;
-}
-
-*/
-
-.navbar-brand {
-  width: 20%;
+  .content-row p {
+    font-size: 30px;
+  }
+  header {
+    position: absolute;
+    overflow-x: hidden;
+    padding: 0;
+    z-index: 2;
+  }
+  .mobile-only {
+    display: none;
+  }
+  .home-brand {
+    display: none;
+  }
+  .navbar-brand {
+    width: 20%;
+  }
 }
 
 .navbar-brand img {
@@ -96,12 +151,21 @@
   }
 }
 
-
 @media screen and (max-width: 991px) {
   #sm-icons {
     padding-top: 2%;
     float: left !important;
     padding-bottom: 2%;
+  }
+}
+
+.mobile-only {
+  img {
+    padding-top: 5%;
+  }
+  h3 {
+    text-align: center;
+    padding-bottom: 5%;
   }
 }
 
@@ -116,13 +180,6 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-}
-
-header {
-  position: absolute;
-  overflow-x: hidden;
-  padding: 0;
-  z-index: 2;
 }
 
 
@@ -150,13 +207,11 @@ header {
 }
 
 .content-row h1 {
-  font-size: 65px;
   text-align: center;
   color: white;
 }
 
 .content-row p {
-  font-size: 25px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
