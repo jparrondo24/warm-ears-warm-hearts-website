@@ -8,8 +8,8 @@
         <% @events.each do |event| %>
           <li>
             <h3><%= event[1]['title'] %></h3>
-            <h3 class="float-right"><%= event[1]['date'] %></h3>
-            <p><%= event[1]['description'] %></p>
+            <!--<h3 class="float-right"><%= event[1]['date'] %></h3>-->
+            <p><strong><%= event[1]['date'] %></strong><br /><%= event[1]['description'] %></p>
           </li>
         <% end %>
 			</ul>

@@ -1,8 +1,56 @@
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 20px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 55px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 25px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 30px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 65px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 35px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 30px;
+  }
+}
+
 h1 {
   padding-top: 7%;
   padding-bottom: 3%;
   text-align: center;
-  font-size: 65px;
 }
 
 header {
@@ -19,13 +67,8 @@ h1 {
 }
 
 .container-fluid#ambassador-container h2 {
-  font-size: 35px;
   text-align: center;
   padding-bottom: 3%;
-}
-
-.container-fluid#ambassador-container li {
-  font-size: 25px;
 }
 
 .container-fluid#ambassador-container {
@@ -36,5 +79,4 @@ h1 {
 .container-fluid#ambassador-container button {
   margin: 0 auto;
   display: block;
-  font-size: 25px;
 }

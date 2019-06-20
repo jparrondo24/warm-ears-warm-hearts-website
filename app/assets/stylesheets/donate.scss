@@ -1,8 +1,76 @@
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 45px;
+  }
+  #donation-container h2 {
+    font-size: 25px;
+  }
+  #donation-container h3 {
+    font-size: 20px;
+  }
+  #donation-container p {
+    font-size: 15px;
+  }
+  #donation-container button {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  #donation-container h2 {
+    font-size: 30px;
+  }
+  #donation-container h3 {
+    font-size: 20px;
+  }
+  #donation-container p {
+    font-size: 20px;
+  }
+  #donation-container button {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 55px;
+  }
+  #donation-container h2 {
+    font-size: 35px;
+  }
+  #donation-container h3 {
+    font-size: 25px;
+  }
+  #donation-container p {
+    font-size: 20px;
+  }
+  #donation-container button {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 65px;
+  }
+  #donation-container h2 {
+    font-size: 45px;
+  }
+  #donation-container h3 {
+    font-size: 35px;
+  }
+  #donation-container p {
+    font-size: 30px;
+  }
+  #donation-container button {
+    font-size: 30px;
+  }
+}
+
 h1 {
   padding-top: 7%;
   padding-bottom: 3%;
   text-align: center;
-  font-size: 65px;
 }
 
 header {
@@ -11,18 +79,16 @@ header {
   background-color: #2f3033;
 }
 
-h1, h2, p {
+h1, #donation-container h2, p {
   font-family: "Roboto", sans-serif;
 }
 
-#donation-container h2 {
-  font-size: 35px;
+#donation-container h3, #donation-container h2 {
   text-align: center;
   padding-bottom: 3%;
 }
 
 #donation-message-row.row p {
-  font-size: 25px;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -32,7 +98,6 @@ h1, h2, p {
 }
 
 #donation-container button {
-  font-size: 25px;
   display: block;
   margin: 0 auto;
 }

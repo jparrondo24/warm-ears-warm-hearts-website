@@ -1,9 +1,65 @@
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .collection-desc h3 {
+    font-size: 20px;
+  }
+  .collection-desc p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .collection-desc h3 {
+    font-size: 20px;
+  }
+  .collection-desc p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .collection-desc h3 {
+    font-size: 25px;
+  }
+  .collection-desc p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .collection-desc h3 {
+    font-size: 35px;
+  }
+  .collection-desc p {
+    font-size: 30px;
+  }
+}
+
 
 h1 {
   padding-top: 7%;
   padding-bottom: 3%;
   text-align: center;
-  font-size: 65px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -17,7 +73,6 @@ header {
   font-family: "Roboto", sans-serif;
   text-align: center;
   padding: 5% 5% 5% 5%;
-  font-size: 45px;
 }
 
 .collection-title img {
@@ -33,11 +88,6 @@ header {
   padding-top: 5%;
 }
 
-.collection-desc h3 {
-  font-size: 40px;
-}
-
 .collection-desc p {
-  font-size: 30px;
   line-height: 1em;
 }
