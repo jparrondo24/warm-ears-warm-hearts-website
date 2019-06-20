@@ -1,3 +1,72 @@
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+  }
+  .event-container h2 {
+    font-size: 40px;
+  }
+  .event-container h3 {
+    font-size: 35px;
+  }
+  .name-col h4 {
+    font-size: 30px;
+  }
+  .sponsors-container p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 55px;
+  }
+  .event-container h2 {
+    font-size: 45px;
+  }
+  .event-container h3 {
+    font-size: 40px;
+  }
+  .name-col h4 {
+    font-size: 35px;
+  }
+  .sponsors-container p {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+  .event-container h2 {
+    font-size: 50px;
+  }
+  .event-container h3 {
+    font-size: 45px;
+  }
+  .name-col h4 {
+    font-size: 40px;
+  }
+  .sponsors-container p {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 65px;
+  }
+  .event-container h2 {
+    font-size: 55px;
+  }
+  .event-container h3 {
+    font-size: 50px;
+  }
+  .name-col h4 {
+    font-size: 45px;
+  }
+  .sponsors-container p {
+    font-size: 35px;
+  }
+}
+
 h1 {
   padding-top: 7%;
   padding-bottom: 3%;
@@ -16,13 +85,11 @@ header {
   font-family: "Roboto", sans-serif;
   text-align: center;
   padding: 2% 5% 2% 5%;
-  font-size: 55px;
 }
 
 .event-container h3 {
   font-family: "Roboto", sans-serif;
   padding: 0% 5% 2% 5%;
-  font-size: 50px;
   text-align: center;
 }
 
@@ -32,7 +99,6 @@ header {
   flex-direction: column;
   h4 {
     text-align: center;
-    font-size: 45px;
   }
 }
 
@@ -43,7 +109,7 @@ header {
 }
 
 .img-col img {
-  width: 300px;
+  max-width: 250px;
 }
 
 .sponsor-container {
@@ -51,7 +117,6 @@ header {
 }
 
 .sponsors-container p {
-  font-size: 35px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   padding-left: 5%;
