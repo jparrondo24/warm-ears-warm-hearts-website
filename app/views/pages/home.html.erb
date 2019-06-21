@@ -64,9 +64,18 @@
       <h1>We need you!</h1>
     </div>
   </div>
+  <div class="row content-row">
+    <div class="col-md-8">
+      <form id="mailchimp-signup">
+        <input name="email" type="text" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
 </div>
 
 <script>
+  let myEvent;
   $('#infoButton').click(function() {
     location.href = "/about";
   });
@@ -78,5 +87,28 @@
   });
   $('#contactButton').click(function() {
     location.href = "/contact";
+  });
+  $('#mailchimp-signup').submit(function(event) {
+    console.log("here");
+    const data = "email="+event.target[0].value;
+    Rails.ajax({
+      url: "/mailchimp/get",
+      type: "GET",
+      data: data,
+      beforeSend: function() {
+        return true
+      },
+      success: function(data) {
+        window.alert(data.title);
+        if (data.title === "Member Exists") {
+          window.alert("This email is already signed up!")
+        } else if (data.title === "Invalid Resource") {
+          window.alert("Invalid email!");
+        } else {
+          window.alert("Successfully subscribed!");
+        }
+      }
+    });
+    event.preventDefault();
   });
 </script>

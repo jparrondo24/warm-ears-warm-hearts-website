@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get '/sponsors' => 'pages#sponsors'
   get '/events' => 'pages#events'
   get '/history' => 'pages#history'
+  get '/mailchimp/get' => 'application#mailchimp'
 end
