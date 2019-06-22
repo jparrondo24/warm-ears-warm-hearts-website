@@ -208,7 +208,24 @@ html, body {
   font-size: 65px;
 }
 
+.carousel-item {
+  width: 100%;
+  length: 100%;
+  background-size: cover;
+  background-repeat: "false";
+}
 
+#slide1 {
+  background-image: image-url("/assets/box.jpeg");
+}
+
+#slide2 {
+  background-image: image-url("/assets/founder.png");
+}
+
+#slide3 {
+  background-image: image-url("/assets/our-family.JPG");
+}
 /* Everything for info boxes */
 
 .content-row h1, .content-row p {
@@ -230,7 +247,9 @@ html, body {
 }
 
 #about-title {
-  background-image: image-url("/assets/founder-vertical.jpg");
+  background-image: image-url("/assets/founder-with-boxes.jpeg");
+  background-repeat: "false";
+  background-size: cover;
 }
 
 #action-title {
