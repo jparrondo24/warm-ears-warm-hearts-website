@@ -65,11 +65,21 @@
     </div>
   </div>
   <div class="row content-row">
-    <div class="col-md-8">
-      <form id="mailchimp-signup">
-        <input name="email" type="text" />
-        <input type="submit" value="Submit" />
-      </form>
+    <div id="form-title" class="col-md-6 col-lg-6 title-col">
+      <h1>Keep in touch.</h1>
+    </div>
+    <div id="mailchimp-signup-col" class="col-md-6 col-lg-6 desc-col">
+      <p>Warm Ears, Warm Hearts is constantly expanding and conducting new programs. Always know what we're up to next by subscribing to our mailing list.
+        <br/><br/>
+        <form id="mailchimp-signup">
+          <span class="input-group">
+            <input name="email" type="email" class="form-control width100"/>
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Subscribe <i class="fa fa-envelope" aria-hidden="true"></i></button>
+            </span>
+          </span>
+        </form>
+      </p>
     </div>
   </div>
 </div>
@@ -99,7 +109,6 @@
         return true
       },
       success: function(data) {
-        window.alert(data.title);
         if (data.title === "Member Exists") {
           window.alert("This email is already signed up!")
         } else if (data.title === "Invalid Resource") {

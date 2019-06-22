@@ -39,6 +39,9 @@
     padding: 0;
     background-color: #2f3033;
   }
+  #mailchimp-signup input, #mailchimp-signup button {
+    font-size: 15px;
+  }
   .carousel-all {
     display: none;
   }
@@ -61,6 +64,9 @@
     overflow-x: hidden;
     padding: 0;
     z-index: 2;
+  }
+  #mailchimp-signup input, #mailchimp-signup button {
+    font-size: 15px;
   }
   .mobile-only {
     display: none;
@@ -85,6 +91,9 @@
     padding: 0;
     z-index: 2;
   }
+  #mailchimp-signup input, #mailchimp-signup button {
+    font-size: 20px;
+  }
   .mobile-only {
     display: none;
   }
@@ -107,6 +116,9 @@
     overflow-x: hidden;
     padding: 0;
     z-index: 2;
+  }
+  #mailchimp-signup input, #mailchimp-signup button {
+    font-size: 20px;
   }
   .mobile-only {
     display: none;
@@ -227,11 +239,35 @@ html, body {
   background-size: 100%;
 }
 
+#form-title {
+  background-image: image-url("/assets/mailbox.jpeg");
+  background-repeat: "false";
+  background-size: 100%;
+}
+
 .button-in-text button {
   font-size: 20px;
+}
+
+.button-in-text button, #mailchimp-signup button, #mailchimp-signup input {
   font-family: "Roboto", sans-serif;
 }
 
+#mailchimp-signup-col p {
+  padding-bottom: 0%;
+}
+
+#mailchimp-signup-col {
+  text-align: center;
+}
+
+#mailchimp-signup {
+  width: 80%;
+  display: inline-block;
+  span {
+    max-width: 120%;
+  }
+}
 /* Everything for footer */
 
 footer {
