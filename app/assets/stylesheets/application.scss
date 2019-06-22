@@ -28,18 +28,18 @@
 }
 
 @media screen and (max-width: 767px) {
-  .content-row h1 {
+  .title-col h1 {
     font-size: 45px;
   }
-  .content-row p {
-    font-size: 5px;
+  .desc-col p {
+    font-size: 17px;
   }
   header {
     position: relative;
     padding: 0;
     background-color: #2f3033;
   }
-  #mailchimp-signup input, #mailchimp-signup button {
+  .content-row input, .content-row button {
     font-size: 15px;
   }
   .carousel-all {
@@ -53,11 +53,11 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .content-row h1 {
+  .title-col h1 {
     font-size: 55px;
   }
-  .content-row p {
-    font-size: 5px;
+  .desc-col p {
+    font-size: 20px;
   }
   header {
     position: absolute;
@@ -65,8 +65,8 @@
     padding: 0;
     z-index: 2;
   }
-  #mailchimp-signup input, #mailchimp-signup button {
-    font-size: 15px;
+  .content-row input, .content-row button {
+    font-size: 17px;
   }
   .mobile-only {
     display: none;
@@ -79,11 +79,11 @@
   }
 }
 @media screen and (min-width: 992px) {
-  .content-row h1 {
+  .title-col h1 {
     font-size: 60px;
   }
-  .content-row p {
-    font-size: 25px;
+  .desc-col p {
+    font-size: 20px;
   }
   header {
     position: absolute;
@@ -91,8 +91,8 @@
     padding: 0;
     z-index: 2;
   }
-  #mailchimp-signup input, #mailchimp-signup button {
-    font-size: 20px;
+  .content-row input, .content-row button {
+    font-size: 17px;
   }
   .mobile-only {
     display: none;
@@ -105,10 +105,10 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .content-row h1 {
+  .title-col h1 {
     font-size: 65px;
   }
-  .content-row p {
+  .desc-col p {
     font-size: 30px;
   }
   header {
@@ -117,8 +117,8 @@
     padding: 0;
     z-index: 2;
   }
-  #mailchimp-signup input, #mailchimp-signup button {
-    font-size: 20px;
+  .content-row input, .content-row button {
+    font-size: 25px;
   }
   .mobile-only {
     display: none;
@@ -243,10 +243,6 @@ html, body {
   background-image: image-url("/assets/mailbox.jpeg");
   background-repeat: "false";
   background-size: 100%;
-}
-
-.button-in-text button {
-  font-size: 20px;
 }
 
 .button-in-text button, #mailchimp-signup button, #mailchimp-signup input {
