@@ -3,16 +3,20 @@
     font-size: 50px;
   }
   .event-container h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .event-container h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .name-col h4 {
     font-size: 30px;
   }
   .sponsors-container p {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .level-desc {
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -20,10 +24,10 @@
     font-size: 55px;
   }
   .event-container h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .event-container h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .name-col h4 {
     font-size: 35px;
@@ -31,22 +35,30 @@
   .sponsors-container p {
     font-size: 25px;
   }
+  .level-desc {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 60px;
   }
   .event-container h2 {
-    font-size: 50px;
-  }
-  .event-container h3 {
     font-size: 45px;
   }
-  .name-col h4 {
+  .event-container h3 {
     font-size: 40px;
+  }
+  .name-col h4 {
+    font-size: 30px;
   }
   .sponsors-container p {
     font-size: 30px;
+  }
+  .level-desc {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -65,13 +77,16 @@
   .sponsors-container p {
     font-size: 35px;
   }
+  .level-desc {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 h1 {
   padding-top: 7%;
   padding-bottom: 3%;
   text-align: center;
-  font-size: 65px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -129,8 +144,4 @@ header {
 }
 .standard-level {
   color: #837c7c
-}
-.level-desc {
-  margin-left: 15%;
-  margin-right: 15%;
 }
