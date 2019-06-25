@@ -271,9 +271,9 @@ html, body {
 }
 
 #form-title {
-  background-image: image-url("/assets/mailbox.jpeg");
+  background-image: image-url("/assets/mailbox.png");
   background-repeat: "false";
-  background-size: 100%;
+  background-size: cover;
 }
 
 .button-in-text button, #mailchimp-signup button, #mailchimp-signup input {
