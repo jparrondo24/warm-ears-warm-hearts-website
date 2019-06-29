@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   def mailchimp
     puts params[:email]
-    conn = Faraday.new('https://us16.api.mailchimp.com/3.0/lists/c67925dc73/members')
+    conn = Faraday.new('https://us16.api.mailchimp.com/3.0/lists/58619de32b/members')
     puts Rails.application.secrets.mail_chimp_api_key
     conn.authorization(:apikey, Rails.application.secrets.mail_chimp_api_key)
     response = conn.post do |req|
