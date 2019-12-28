@@ -2,90 +2,74 @@
   h1 {
     font-size: 50px;
   }
-  .event-container h2 {
+  .gratitudes-container h2 {
     font-size: 35px;
   }
-  .event-container h3 {
+  .gratitudes-container h3 {
     font-size: 30px;
   }
-  .name-col h4 {
+  .gratitudes-container h4 {
     font-size: 30px;
   }
-  .sponsors-container p {
+  .gratitudes-container p {
     font-size: 15px;
-  }
-  .level-desc {
-    margin-left: 2%;
-    margin-right: 2%;
   }
 }
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
-  .event-container h2 {
-    font-size: 40px;
-  }
-  .event-container h3 {
+  .gratitudes-container h2 {
     font-size: 35px;
   }
-  .name-col h4 {
-    font-size: 35px;
+  .gratitudes-container h3 {
+    font-size: 30px;
   }
-  .sponsors-container p {
-    font-size: 25px;
+  .gratitudes-container h4 {
+    font-size: 30px;
   }
-  .level-desc {
-    margin-left: 10%;
-    margin-right: 10%;
+  .gratitudes-container p {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 992px) {
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
-  .event-container h2 {
-    font-size: 45px;
-  }
-  .event-container h3 {
+  .gratitudes-container h2 {
     font-size: 40px;
   }
-  .name-col h4 {
-    font-size: 30px;
+  .gratitudes-container h3 {
+    font-size: 35px;
   }
-  .sponsors-container p {
-    font-size: 30px;
+  .gratitudes-container h4 {
+    font-size: 25px;
   }
-  .level-desc {
-    margin-left: 15%;
-    margin-right: 15%;
+  .gratitudes-container p {
+    font-size: 25px;
   }
 }
 @media screen and (min-width: 1200px) {
   h1 {
     font-size: 65px;
   }
-  .event-container h2 {
-    font-size: 55px;
-  }
-  .event-container h3 {
+  .gratitudes-container h2 {
     font-size: 50px;
   }
-  .name-col h4 {
+  .gratitudes-container h3 {
     font-size: 45px;
   }
-  .sponsors-container p {
-    font-size: 35px;
+  .gratitudes-container h4 {
+    font-size: 40px;
   }
-  .level-desc {
-    margin-left: 15%;
-    margin-right: 15%;
+  .gratitudes-container p {
+    font-size: 30px;
   }
 }
 
 h1 {
-  padding-top: 7%;
-  padding-bottom: 3%;
+  padding-top: 14%;
+  padding-bottom: 7%;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
@@ -96,15 +80,13 @@ header {
   background-color: #2f3033;
 }
 
-.event-container h2 {
+.gratitudes-container h2 {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  padding: 2% 5% 2% 5%;
 }
 
-.event-container h3 {
+.gratitudes-container h3 {
   font-family: "Roboto", sans-serif;
-  padding: 0% 5% 2% 5%;
   text-align: center;
 }
 
@@ -127,16 +109,20 @@ header {
   max-width: 250px;
 }
 
-.sponsor-container {
+.gratitudes-container {
   padding-bottom: 5%;
 }
 
-.sponsors-container p {
+.gratitudes-container p {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-bottom: 2%;
+}
+
+.gratitudes-container h3 {
+  padding-top: 2%;
 }
 
 .gold-level {
@@ -144,4 +130,16 @@ header {
 }
 .standard-level {
   color: #837c7c
+}
+
+.notable-donors-containers ul {
+  font-size: 30px;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+}
+
+.notable-donors-containers button {
+  font-size: 20px;
 }
