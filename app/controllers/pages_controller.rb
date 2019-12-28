@@ -22,7 +22,7 @@ class PagesController < ApplicationController
   def events
 
   end
-  def sponsors
+  def gratitudes
 
   end
   def tournament

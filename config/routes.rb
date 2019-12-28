@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/donate' => 'pages#donate'
   get '/events' => 'pages#events'
   get '/collections' => 'pages#collections'
-  get '/sponsors' => 'pages#sponsors'
+  get '/gratitudes' => 'pages#gratitudes'
   get '/events' => 'pages#events'
   get '/history' => 'pages#history'
   get '/mailchimp/get' => 'application#mailchimp'
