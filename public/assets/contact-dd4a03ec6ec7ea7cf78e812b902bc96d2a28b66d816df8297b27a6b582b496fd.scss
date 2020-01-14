@@ -1,0 +1,77 @@
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 45px;
+  }
+  .contact-row h2 {
+    font-size: 25px;
+  }
+  .contact-row h3 {
+    font-size: 20px;
+  }
+  .contact-row p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  .contact-row h2 {
+    font-size: 30px;
+  }
+  .contact-row h3 {
+    font-size: 20px;
+  }
+  .contact-row p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 55px;
+  }
+  .contact-row h2 {
+    font-size: 35px;
+  }
+  .contact-row h3 {
+    font-size: 25px;
+  }
+  .contact-row p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 65px;
+  }
+  .contact-row h2 {
+    font-size: 45px;
+  }
+  .contact-row h3 {
+    font-size: 35px;
+  }
+  .contact-row p {
+    font-size: 30px;
+  }
+}
+
+h1 {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+header {
+  position: relative;
+  padding: 0;
+  background-color: #2f3033;
+}
+
+h1, .contact-row h2, .contact-row h3, .contact-row a {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-row {
+  padding-bottom: 7%;
+  padding-left: 3%;
+}
