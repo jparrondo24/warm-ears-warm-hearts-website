@@ -19,22 +19,47 @@
       "second-collection": {
         "date": "December 2017",
         "title": "The Second Collection",
-        "description": "Warm Ears, Warm Hearts does it's second collection! Clothing is collected at CCHS and sent to over 90 homeless families through LAMP Catholic Ministries"
+        "description": "Warm Ears, Warm Hearts does its second collection! Clothing is collected at CCHS and sent to over 90 homeless families through LAMP Catholic Ministries."
       },
       "first-giveaway": {
         "date": "December 2017",
         "title": "Our First Giveaway",
         "description": "During this collection, Warm Ears, Warm Hearts also had its first giveaway! People who donated winter clothing had a chance to win a Starbucks gift card! "
       },
-      "second-giveaway": {
-        "date": "March 2018",
-        "title": "Our Second Giveaway",
-        "description": "Warm Ears, Warm Hearts does its second giveaway! Anyone who donated money during this month had a chance to win a Starbucks gift card."
-      },
       "smash-coldness": {
         "date": "December 2nd, 2018",
         "title": "Smash Coldness 2018",
         "description": "Warm Ears, Warm Hearts successfully hosted its first Smash Coldness video game tournament. Everyone from beginners to nationally ranked players came to compete. In the end, we ended raising over $1900! Thank you to all of the sponsors and volunteers who made the event possible!"
+      },
+      "third-collection": {
+        "date": "December 2018",
+        "title": "The Third Collection",
+        "description": "During our third year, we collected over 100 pounds of winter clothing at two schools. We partnered with LAMP Catholic Ministries once more to distribute the clothes to over 90 homeless families."
+      },
+      "non-profit-status": {
+        "date": "February 14th, 2019",
+        "title": "501(c)3 Status",
+        "description": "On this date, we received our 501(c)3 tax-deductible status from the Internal Revenue Service. This retroactive declaration classified us as a public charity and enabled us to expand our mission."
+      },
+      "smash-coldness-2": {
+        "date": "December 14th, 2019",
+        "title": "Smash Coldness 2",
+        "description": "We hosted our second annual Super Smash Bros. video game tournament to raise awareness and funds for our cause. Over 70 gamers participated in the tournament and we raised over 2300 dollars!"
+      },
+      "the-fourth-collection": {
+        "date": "December 2019",
+        "title": "The Fourth Collection",
+        "description": "During our fourth year, we collected over 150 pounds of winter clothing at three schools. We partnered with LAMP Catholic Ministries and Crystal’s Place in the Bronx, NY to assist over 90 homeless families. Our Founder went in person to deliver the clothes for the first time!"
+      },
+      "inaugural-ambassador": {
+        "date": "February 2020",
+        "title": "Inaugural Ambassador of the Year",
+        "description": "We established the “Ambassador of Year” to honor the extraordinary work of our Ambassadors. Our first recipient was Guadalupe Diaz of Msgr. Edward Pace HS, who collected over 200 pounds of winter clothes in her Key Club alone!"
+      },
+      "amazon-smile": {
+        "date": "February 2020",
+        "title": "Amazon Smile Charity",
+        "description": "We officially partnered with Amazon Smile so that a portion of all eligible purchases are donated to us. To select us as your supported organization, navigate to smile.amazon.com and select “Warm Ears, Warm Hearts Foundation, Inc.”"
       }
     }
   ]

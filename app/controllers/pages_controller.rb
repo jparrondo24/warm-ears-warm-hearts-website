@@ -26,8 +26,12 @@ class PagesController < ApplicationController
 
   end
   def tournament
+
   end
   def history
     @events = (JSON.parse(File.read('public/history.json')))['events'][0]
+  end
+  def programs
+  
   end
 end

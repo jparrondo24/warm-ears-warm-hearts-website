@@ -11,5 +11,6 @@ Rails.application.routes.draw do
   get '/gratitudes' => 'pages#gratitudes'
   get '/events' => 'pages#events'
   get '/history' => 'pages#history'
+  get '/programs' => 'pages#programs'
   get '/mailchimp/get' => 'application#mailchimp'
 end

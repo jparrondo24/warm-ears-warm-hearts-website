@@ -1,0 +1,126 @@
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 45px;
+  }
+  #programs-container h2 {
+    font-size: 25px;
+  }
+  #programs-container h3 {
+    font-size: 20px;
+  }
+  #programs-container p {
+    font-size: 15px;
+  }
+  #programs-container button {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 55px;
+  }
+  #programs-container h2 {
+    font-size: 25px;
+  }
+  #programs-container h3 {
+    font-size: 25px;
+  }
+  #programs-container p {
+    font-size: 20px;
+  }
+  #programs-container button {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+  #programs-container h2 {
+    font-size: 30px;
+  }
+  #programs-container h3 {
+    font-size: 30px;
+  }
+  #programs-container p {
+    font-size: 25px;
+  }
+  #programs-container button {
+    font-size: 20px;
+  }
+  .contributor-row img, #hapzly-row img {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 65px;
+  }
+  #programs-container h2 {
+    font-size: 35px;
+  }
+  #programs-container h3 {
+    font-size: 35px;
+  }
+  #programs-container p {
+    font-size: 30px;
+  }
+  #programs-container button {
+    font-size: 25px;
+  }
+  .contributor-row img, #hapzly-row img {
+    width: 400px;
+  }
+}
+
+h1 {
+  padding-top: 7%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  padding-bottom: 6%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: relative;
+  padding: 0;
+  background-color: #2f3033;
+}
+
+.programs-row h1, .programs-row p {
+  font-family: "Roboto", sans-serif;
+  align-content: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.programs-row h1 {
+  text-align: center;
+  color: white;
+}
+
+.programs-row p {
+  text-align: center;
+}
+
+#winter-clothes-collection-title {
+  background-image: image-url("/assets/winter-clothes-collection.jpg");
+  background-repeat: "false";
+  background-size: cover;
+}
+
+#african-literacy-initiative-title {
+  background-image: image-url("/assets/african-literacy-initiative.jpg");
+  background-repeat: "false";
+  background-size: cover;
+}
+
+#covid-response-title {
+  background-image: image-url("/assets/covid-response.jpg");
+  background-repeat: "false";
+  background-size: cover;  
+}
