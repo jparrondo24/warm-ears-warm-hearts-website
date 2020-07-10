@@ -2,16 +2,16 @@
   h1 {
     font-size: 45px;
   }
-  #smash-coldness-2019 h2 {
+  .event h2 {
     font-size: 20px;
   }
-  #smash-coldness-2019 h3 {
+  .event h3 {
     font-size: 20px;
   }
-  #smash-coldness-2019 p {
+  .event p {
     font-size: 15px;
   }
-  #smash-coldness-2019 button {
+  .event button {
     font-size: 15px;
   }
 }
@@ -19,16 +19,16 @@
   h1 {
     font-size: 50px;
   }
-  #smash-coldness-2019 h2 {
+  .event h2 {
     font-size: 20px;
   }
-  #smash-coldness-2019 h3 {
+  .event h3 {
     font-size: 20px;
   }
-  #smash-coldness-2019 p {
+  .event p {
     font-size: 20px;
   }
-  #smash-coldness-2019 button {
+  .event button {
     font-size: 20px;
   }
 }
@@ -36,16 +36,16 @@
   h1 {
     font-size: 55px;
   }
-  #smash-coldness-2019 h2 {
+  .event h2 {
     font-size: 25px;
   }
-  #smash-coldness-2019 h3 {
+  .event h3 {
     font-size: 25px;
   }
-  #smash-coldness-2019 p {
+  .event p {
     font-size: 20px;
   }
-  #smash-coldness-2019 button {
+  .event button {
     font-size: 20px;
   }
 }
@@ -53,21 +53,21 @@
   h1 {
     font-size: 65px;
   }
-  #smash-coldness-2019 h2 {
+  .event h2 {
     font-size: 35px;
   }
-  #smash-coldness-2019 h3 {
+  .event h3 {
     font-size: 35px;
   }
-  #smash-coldness-2019 p {
+  .event p {
     font-size: 30px;
   }
-  #smash-coldness-2019 button {
+  .event button {
     font-size: 30px;
   }
 }
 
-h1, #smash-coldness-2019 h2, h3, p {
+h1, .event h2, h3, p {
   font-family: "Roboto", sans-serif;
 }
 
@@ -94,21 +94,21 @@ li p {
   text-align: left;
 }
 
-#smash-coldness-2019 h3 {
+.event h3 {
   text-align: center;
   padding-bottom: 2%;
 }
 
-#smash-coldness-2019 img {
+.event img {
   max-width: 60%;
 }
 
-#smash-coldness-2019 i {
+.event i {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-#smash-coldness-2019 span {
+.event span {
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -116,8 +116,8 @@ li p {
   padding-bottom: 4%;
 }
 
-#smash-coldness-2019 button {
-  margin: 3px;
+.event button {
+  margin: 5px;
 }
 
 #yt-button {
@@ -125,3 +125,22 @@ li p {
   border-color: #FE0000;
 }
 
+#smash-covid-details {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  i {
+    text-align: left;
+  }
+  p {
+    text-align: left;
+  }
+}
+
+#discord-button {
+  background-color: #7289DA;
+  border-color: #7289DA;
+}
+
+.event-buttons {
+  padding-top: 2%;
+}
