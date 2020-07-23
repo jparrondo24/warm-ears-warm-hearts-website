@@ -91,4 +91,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.require_master_key = false
+  
+  #Force SSL in Production
+  config.force_ssl = true
 end
