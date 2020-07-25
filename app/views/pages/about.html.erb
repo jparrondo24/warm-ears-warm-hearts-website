@@ -63,7 +63,7 @@
       </div>
       <div class="carousel-item col-12 col-sm-6 col-md-4">
         <h2>Justin Parrondo</h2>
-        <h3>Webmaster</h3>
+        <h3>Webmaste and Directorr</h3>
         <img class="img-fluid rounded-circle mx-auto d-block" src="assets/justin.png" alt="Justin Parrondo | Webmaster" />
       </div>
       <div class="carousel-item col-12 col-sm-6 col-md-4">
@@ -79,7 +79,22 @@
       <div class="carousel-item col-12 col-sm-6 col-md-4">
         <h2>Guadalupe Diaz</h2>
         <h3>Head of Social Media</h3>
-        <img class="img-fluid rounded-circle mx-auto d-block" src="assets/lupi.jpeg" alt="Daniel Luna | Director of Volunteers" />
+        <img class="img-fluid rounded-circle mx-auto d-block" src="assets/lupi.jpeg" alt="Guadalupe Diaz | Head of Social Media" />
+      </div>
+      <div class="carousel-item col-12 col-sm-6 col-md-4">
+        <h2>Nicolas Morles</h2>
+        <h3>Vice President</h3>
+        <img class="img-fluid rounded-circle mx-auto d-block" src="assets/nico.jpeg" alt="Nico Morles | Vice President" />
+      </div>
+      <div class="carousel-item col-12 col-sm-6 col-md-4">
+        <h2>Joaquim A. Carvallho</h2>
+        <h3>Director of Events</h3>
+        <img class="img-fluid rounded-circle mx-auto d-block" src="assets/joaquim.jpeg" alt="Joaquim A. Carvallho | Director of Events" />
+      </div>
+      <div class="carousel-item col-12 col-sm-6 col-md-4">
+        <h2>Jordan Perez</h2>
+        <h3>Head Content Producer</h3>
+        <img class="img-fluid rounded-circle mx-auto d-block" src="assets/jordan.jpeg" alt="Jordan Perez | Head Content Producer" />
       </div>
     </div>
     <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
@@ -97,7 +112,7 @@
       var $e = $(e.relatedTarget);
       var idx = $e.index();
       var itemsPerSlide = 3;
-      var totalItems = 6;
+      var totalItems = 9;
       if (idx >= totalItems-(itemsPerSlide-1)) {
           var it = itemsPerSlide - (totalItems - idx);
           for (var i=0; i<it; i++) {
@@ -106,7 +121,7 @@
                   $('.carousel-item').eq(i).appendTo('.carousel-inner');
               }
               else {
-                  $('.carousel-item').eq(0).appendTo('.carousel-item');
+                  $('.carousel-item').eq(0).appendTo('.carousel-inner');
               }
           }
       }
