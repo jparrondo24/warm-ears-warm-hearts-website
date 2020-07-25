@@ -1,0 +1,88 @@
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 20px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 55px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 25px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 30px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 65px;
+  }
+  .container-fluid#ambassador-container h2 {
+    font-size: 35px;
+  }
+  .container-fluid#ambassador-container li,
+  .container-fluid#ambassador-container button {
+    font-size: 30px;
+  }
+}
+
+h1 {
+  padding-top: 7%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+header {
+  position: relative;
+  padding: 0;
+  background-color: #2f3033;
+}
+
+.container-fluid#ambassador-container h3,
+.container-fluid#ambassador-container h2,
+.container-fluid#ambassador-container p,
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-fluid#ambassador-container h2 {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.container-fluid#ambassador-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container-fluid#ambassador-container button {
+  margin: 0 auto;
+  display: block;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  min-width: 75%;
+}

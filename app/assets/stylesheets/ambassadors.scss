@@ -80,3 +80,10 @@ h1 {
   margin: 0 auto;
   display: block;
 }
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  min-width: 75%;
+  overflow: visible !important;
+}
