@@ -27,7 +27,7 @@
       <img class="img-fluid mx-auto d-block" src="assets/hapzly.png" alt="Hapzly Certified" />
     </div>
     <div class="col-md-6 col-lg-6 accreditation-desc-col">
-      <p class="text-center">Hapzly is leading a movement of businesses, organisations, and consumers around the world who want to share, promote, and enjoy happiness. Warm Ears, Warm Hearts is proud to be one of the first non-profits to join in its mission.</p>
+      <p class="text-center">Hapzly is leading a movement of businesses, organizations, and consumers around the world who want to share, promote, and enjoy happiness. Warm Ears, Warm Hearts is proud to be one of the first non-profits to join in its mission.</p>
       <span class="button-in-text">
         <button id="hapzlyButton" class="btn btn-info">Discover Hapzly <i class="fa fa-info-circle" aria-hidden="true"></i></button>
       </span>
@@ -112,48 +112,15 @@
       }
     });
   </script>
-<%
-=begin%>
-   
-  <div class="contributor-row row">
-    <div class="col-md-4 col-lg-4">
-      <h2>Alejandro Morles</h2>
-      <h3>Founder & President</h3>
-      <img class="img-fluid rounded-circle mx-auto d-block" src="assets/morles-letterman.jpg" alt="Alejandro Morles | Founder & President" />
-    </div>
-    <div class="col-md-4 col-lg-4">
-      <h2>Thomas Mackle</h2>
-      <h3>Secretary</h3>
-      <img class="img-fluid rounded-circle mx-auto d-block" src="assets/mackle.jpg" alt="Thomas Mackle | Secretary & Director" />
-    </div>
-    <div class="col-md-4 col-lg-4">
-      <h2>Justin Parrondo</h2>
-      <h3>Webmaster</h3>
-      <img class="img-fluid rounded-circle mx-auto d-block" src="assets/justin.png" alt="Justin Parrondo | Webmaster" />
-    </div>
-  </div>
-  <div class="contributor-row row">
-    <div class="col-md-4 col-lg-4">
-      <h2>Marcel Van Hemert</h2>
-      <h3>Director of Middle School Volunteers</h3>
-      <img class="img-fluid rounded-circle mx-auto d-block" src="assets/marcel.jpg" alt="Marcel van Hemert | Promoter & Historian" />
-    </div>
-    <div class="col-md-4 col-lg-4">
-      <h2>Daniel Luna</h2>
-      <h3>Head of Graphic Design</h3>
-      <img class="img-fluid rounded-circle mx-auto d-block" src="assets/luna.jpg" alt="Daniel Luna | Director of Volunteers" />
-    </div>
-    <div class="col-md-4 col-lg-4">
-      <h2>Guadalupe Diaz</h2>
-      <h3>Head of Social Media</h3>
-      <img class="img-fluid rounded-circle mx-auto d-block" src="assets/lupi.jpeg" alt="Daniel Luna | Director of Volunteers" />
-    </div>
-  </div> 
-<%
-=end%>
 </div>
 
 <script>
+  $(document).ready(() => {
+    $('#home-carousel').carousel({
+      interval: 2000
+    });
+  });
+
   $('#hapzlyButton').click(function() {
     window.open('https://hapzly.com/','_blank');
   });

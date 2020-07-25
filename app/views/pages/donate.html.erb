@@ -1,22 +1,57 @@
 <%= stylesheet_link_tag 'donate' %>
 
-<div id="donation-container" class="container-fluid">
-  <h1>Donate <i class="fa fa-money-bill-alt"></i></h1>
-  <h2>Whatever your reason for donating and however you choose to make your donation, we are grateful for your support.</h2>
-  <div id="donation-message-row" class="row">
-    <div class="col-md-6 col-lg-6">
-      <p>The Warm Ears, Warm Hearts Foundation Inc. is a nonprofit dedicated to helping children in need. However, we do need financial support. Below is the link to the nonprofit's Donorbox. Please consider donating, as any amount helps. Because we are a <a href="https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-section-501c3-organizations" target="_blank">501(c)3 federal non-profit</a>, your donation is even tax-deductible.</p>
-    </div>
-    <div class="col-md-6 col-lg-6">
-      <p>Thank you for taking time to read this,
-         <br/>
-         <i>Alejandro Ignacio Morles<br/>
-         Founder and President</i>
-      </p>
+<div id="donation-container">
+  <div class="carousel-all">
+    <div id="home-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+      <ol class="carousel-indicators">
+        <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#home-carousel" data-slide-to="1"></li>
+        <li data-target="#home-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div id="donate1" class="carousel-item active">
+        </div>
+        <div id="donate2" class="carousel-item">
+        </div>
+        <div id="donate3" class="carousel-item">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Donate</h1>
+          <h3>Whatever your reason for donating and however you choose to make your donation, we are grateful for your support.</h3>
+        </div>
+      </div>
     </div>
   </div>
-  <button onclick="window.open('https://donorbox.org/wewh','_blank');" class="btn btn-success">Donate <i class="fa fa-external-link-alt"></i></button>
-  <br/>
-  <br/>
-  <br/>
+
+<div class="container-fluid">
+  <div class="mobile-only">
+    <img class="img-responsive d-block w-100" src="/assets/donate2.JPG" alt="Warm Ears, Warm Hearts" />
+    <h1>Donate</h1>
+    <h3>Whatever your reason for donating and however you choose to make your donation, we are grateful for your support.</h3>
+  </div>
+  <div id="donation-message-row" class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <h2>Why do we need donations?</h2>
+      <p>I made "Warm Ears, Warm Hearts" a legal nonprofit foundation in the state of Florida. However, we won't be able to make progress without financial support. All funds will go to helping children in need. The packages cost about $300 to mail per year. With more money collected, I can ship more boxes and leave a bigger impact. Furthermore, during these unprecedented times brought by COVID-19, we are actively running programs to provide much needed assistance to COVID-19 responders. However, one man can't do it alone. I'm asking you to help me help others by donating any amount, from one dollar to one million dollars (thank you, by the way).</p>
+      <p>Thank you very much for taking time to read this! I hope you consider donating. 
+      <br/>
+      <i>
+        Alejandro Ignacio Morles<br/>
+        Christopher Columbus Class of 2020 <br/>
+        Founder of Warm Ears, Warm Hearts Foundation Inc.<br/>
+      </i>
+      </p>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="mx-auto" allowpaymentrequest="" frameborder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/wewh?default_interval=o" style="max-width: 500px; min-width: 310px; max-height:none!important" width="100%"></iframe>
+    </div>
+  </div>
+<br/>
+<br/>
+<br/>
 </div>
+
+<script>
+  $('#home-carousel').carousel();
+</script>

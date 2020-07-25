@@ -1,5 +1,5 @@
 <div class="carousel-all">
-  <div id="home-carousel" class="carousel slide" data-ride="carousel">
+  <div id="home-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
     <ol class="carousel-indicators">
       <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
       <li data-target="#home-carousel" data-slide-to="1"></li>
@@ -14,7 +14,7 @@
       </div>
       <div id="slide2" class="carousel-item">
         <div class="carousel-caption d-none d-md-block">
-          <h3>11 boxes delivered. 4 years running.</h3>
+          <h3>400+ pounds sent. 4 years running.</h3>
         </div>
       </div>
       <div id="slide3" class="carousel-item">
@@ -27,7 +27,6 @@
 </div>
 
 <div class="container-fluid">
-
   <div class="mobile-only">
     <img class="d-block w-100" src="/assets/large-logo.jpg" alt="Warm Ears, Warm Hearts" />
     <h3>7 boxes delivered. 3 years running.</h3>
@@ -121,4 +120,5 @@
     });
     event.preventDefault();
   });
+  $('#home-carousel').carousel();
 </script>

@@ -73,10 +73,16 @@ h1 {
   text-align: center;
 }
 
-header {
-  position: relative;
-  padding: 0;
-  background-color: #2f3033;
+#donate1 {
+  background-image: image-url("/assets/donate2.JPG");
+}
+
+#donate2 {
+  background-image: image-url("/assets/donate1.JPG");
+}
+
+#donate3 {
+  background-image: image-url("/assets/donate3.JPG");
 }
 
 h1, #donation-container h2, p {
@@ -91,13 +97,19 @@ h1, #donation-container h2, p {
 #donation-message-row.row p {
   padding-left: 5%;
   padding-right: 5%;
+  text-align: center;
 }
 
 #donation-message-row.row {
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 #donation-container button {
   display: block;
   margin: 0 auto;
+}
+
+iframe {
+  display: block;
 }
