@@ -87,11 +87,6 @@
         <img class="img-fluid rounded-circle mx-auto d-block" src="assets/nico.jpeg" alt="Nico Morles | Vice President" />
       </div>
       <div class="carousel-item col-12 col-sm-6 col-md-4">
-        <h2>Joaquim A. Carvallho</h2>
-        <h3>Director of Events</h3>
-        <img class="img-fluid rounded-circle mx-auto d-block" src="assets/jordan.jpeg" alt="Joaquim A. Carvallho | Director of Events" />
-      </div>
-      <div class="carousel-item col-12 col-sm-6 col-md-4">
         <h2>Jordan Perez</h2>
         <h3>Head Content Producer</h3>
         <img class="img-fluid rounded-circle mx-auto d-block" src="assets/joaquim.jpeg" alt="Jordan Perez | Head Content Producer" />
@@ -112,7 +107,7 @@
       var $e = $(e.relatedTarget);
       var idx = $e.index();
       var itemsPerSlide = 3;
-      var totalItems = 9;
+      var totalItems = 8;
       if (idx >= totalItems-(itemsPerSlide-1)) {
           var it = itemsPerSlide - (totalItems - idx);
           for (var i=0; i<it; i++) {
