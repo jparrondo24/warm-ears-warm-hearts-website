@@ -13,7 +13,7 @@ gem 'sprockets-rails'
 gem 'rails', '6.0.2.1'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
-gem 'puma', '4.3.1'
+gem 'puma', '4.3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
